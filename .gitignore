@@ -1,10 +1,7 @@
-/_build
-/cover
-/deps
-/doc
-/.fetch
-erl_crash.dump
-*.ez
-*.beam
-/config/*.secret.exs
-.elixir_ls/
+cd yolo_plugin  # 进入你的项目目录
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/你的用户名/yolo-plugin-api.git
+git push -u origin main
